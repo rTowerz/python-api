@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv
+venv/
+env/
+dist/
+build/
+
+# VSCode
+.vscode/
+
+# Flask / local
+instance/
+
+# Byte-compiled / cache
+*.log
