@@ -18,7 +18,7 @@ def get_user(user_id):
 
 @app.route("/create-user", methods=["POST"])
 def create_user():
-    # Example: read JSON data from the request body
+   
     data = request.get_json()
     return jsonify({
         "message": "User created successfully",
